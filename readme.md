@@ -27,6 +27,9 @@ The Batch Telemetry Agent is an AI-powered monitoring and diagnostic solution de
 - 📊 **Visualization & Reporting**: Offers dashboards for workload distribution, priority spread, throttling trends, and batch exceptions.
 
 ## 🏗️ Architecture
+<p align="center">
+  <img src="./assets/Batch Framework Telemetry Agent Architecture.png" alt="Batch Framework Telemetry Agent Architecture" width="1500"/>
+</p>
 
 - 🔄 **Telemetry Flow**: Batch Telemetry events from D365 F&O are streamed to Application Insights.
 - 🧮 **Agent Logic**: Queries telemetry periodically or on-demand, evaluates rules, and stores results in Dataverse.
