@@ -33,30 +33,28 @@ The Batch Telemetry Agent is an AI-powered monitoring and diagnostic solution de
 
 - **Telemetry Flow**: Batch Telemetry events from D365 F&O are streamed to Application Insights.
 - **Agent Logic**: Queries telemetry periodically or on-demand, evaluates rules, and stores results in Dataverse.
-- **User Interaction**: Users engage via Copilot chat, canvas apps, or Teams channels.
+- **User Interaction**: Users engage via Copilot chat, M365 chat, or Teams channels.
 - **Remediation Execution**: Actions are triggered via MCP Server and verified through telemetry feedback loops.
 
 ## ✅ Prerequisites
 
-- D365 F&O version 10.0.45 or later
+- Dynamics 365 Finance & Supply Chain version 10.0.45(7.0.7690.21 PU69 or later
 - Azure Application Insights configured for batch telemetry
 - Access to Copilot Studio and Power Automate
-- Optional: Microsoft Fabric for extended data handling
 
-## 🛠️ Step 1 - Telemetry Configuration
 
-Ensure batch telemetry is enabled in D365 F&O and connected to Application Insights.
+    ## 🛠️ Step 1 - Telemetry Configuration
 
-## 🛠️ Step 2 - Agent Deployment
+- Ensure batch telemetry is enabled in D365 F&O and connected to Application Insights
+  (https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/)
+  (https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/monitoring-getting-started)
+  
+
+    ## 🛠️ Step 2 - Agent Deployment
 
 - Import the agent canvas app into Copilot Studio.
 - Configure prompts and remediation rules.
 - Set up Power Automate flows for notifications.
-
-## 🛠️ Step 3 - Knowledge Source Integration
-
-- Connect Microsoft Learn Docs MCP Server for contextual guidance.
-- Optionally integrate Fabric for large-scale telemetry analysis.
 
 ## 🧪 Usage
 
