@@ -9,7 +9,6 @@
 - [Step 2 - Agent Deployment](#step-2---agent-deployment)
 - [Step 3 - Knowledge Source Integration](#step-3---knowledge-source-integration)
 - [Usage](#usage)
-- [Cost Estimation](#cost-estimation)
 - [Resources](#resources)
 - [Contributors](#contributors)
 - [License](#license)
