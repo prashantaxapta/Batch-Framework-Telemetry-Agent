@@ -7,7 +7,6 @@
 - [Prerequisites](#prerequisites)
 - [Step 1 - Telemetry Configuration](#step-1---telemetry-configuration)
 - [Step 2 - Agent Deployment](#step-2---agent-deployment)
-- [Step 3 - Knowledge Source Integration](#step-3---knowledge-source-integration)
 - [Usage](#usage)
 - [Resources](#resources)
 - [Contributors](#contributors)
