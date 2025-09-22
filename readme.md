@@ -11,7 +11,6 @@
 - [Usage](#usage)
 - [Resources](#resources)
 - [Contributors](#contributors)
-- [License](#license)
 
 ## 🧠 Overview
 
@@ -78,10 +77,6 @@ The Batch Telemetry Agent is an AI-powered monitoring and diagnostic solution de
 
 - Prashant Verma
 - Hemanth Kumar
-
-## 📄 License
-
-This project is licensed under the MIT License.
 
 ---
 
