@@ -1,18 +1,18 @@
 # Batch Telemetry Agent
 
 ## 📚 Table of Contents
-- [🧠 Overview](#overview)
-- [🔧 Key Capabilities](#key-capabilities)
-- [🏗️ Architecture](#architecture)
-- [✅ Prerequisites](#prerequisites)
-- [🛠️ Step 1 - Telemetry Configuration](#step-1---telemetry-configuration)
-- [🛠️ Step 2 - Agent Deployment](#step-2---agent-deployment)
-- [🛠️ Step 3 - Knowledge Source Integration](#step-3---knowledge-source-integration)
-- [🧪 Usage](#usage)
-- [💰 Cost Estimation](#cost-estimation)
-- [📎 Resources](#resources)
-- [👥 Contributors](#contributors)
-- [📄 License](#license)
+- [Overview](#overview)
+- [Key Capabilities](#key-capabilities)
+- [Architecture](#architecture)
+- [Prerequisites](#prerequisites)
+- [Step 1 - Telemetry Configuration](#step-1---telemetry-configuration)
+- [Step 2 - Agent Deployment](#step-2---agent-deployment)
+- [Step 3 - Knowledge Source Integration](#step-3---knowledge-source-integration)
+- [Usage](#usage)
+- [Cost Estimation](#cost-estimation)
+- [Resources](#resources)
+- [Contributors](#contributors)
+- [License](#license)
 
 ## 🧠 Overview
 
@@ -20,28 +20,28 @@ The Batch Telemetry Agent is an AI-powered monitoring and diagnostic solution de
 
 ## 🔧 Key Capabilities
 
-- 📡 **Telemetry Collection**: Captures signals such as job start/end times, thread usage, throttling metrics, queue sizes, failures, and Infolog errors.
-- 💬 **Prompt-Based Analysis**: Uses GPT-4o and GPT-5 models to interpret telemetry data via natural language prompts.
-- 🚨 **Anomaly Detection**: Applies Kusto (KQL) queries and AI models to detect performance degradation and scheduling inefficiencies.
-- 🛠️ **Self-Healing Options**: Supports guided or autonomous remediation actions like restarting failed jobs.
-- 📊 **Visualization & Reporting**: Offers dashboards for workload distribution, priority spread, throttling trends, and batch exceptions.
+- **Telemetry Collection**: Captures signals such as job start/end times, thread usage, throttling metrics, queue sizes, failures, and Infolog errors.
+- **Prompt-Based Analysis**: Uses GPT-4o and GPT-5 models to interpret telemetry data via natural language prompts.
+- **Anomaly Detection**: Applies Kusto (KQL) queries and AI models to detect performance degradation and scheduling inefficiencies.
+- **Self-Healing Options**: Supports guided or autonomous remediation actions like restarting failed jobs.
+- **Visualization & Reporting**: Offers dashboards for workload distribution, priority spread, throttling trends, and batch exceptions.
 
 ## 🏗️ Architecture
 <p align="center">
   <img src="./Images/Architecture.png" alt="Batch Framework Telemetry Agent Architecture" width="1500"/>
 </p>
 
-- 🔄 **Telemetry Flow**: Batch Telemetry events from D365 F&O are streamed to Application Insights.
-- 🧮 **Agent Logic**: Queries telemetry periodically or on-demand, evaluates rules, and stores results in Dataverse.
-- 🧑‍💻 **User Interaction**: Users engage via Copilot chat, canvas apps, or Teams channels.
-- ⚙️ **Remediation Execution**: Actions are triggered via MCP Server and verified through telemetry feedback loops.
+- **Telemetry Flow**: Batch Telemetry events from D365 F&O are streamed to Application Insights.
+- **Agent Logic**: Queries telemetry periodically or on-demand, evaluates rules, and stores results in Dataverse.
+- **User Interaction**: Users engage via Copilot chat, canvas apps, or Teams channels.
+- **Remediation Execution**: Actions are triggered via MCP Server and verified through telemetry feedback loops.
 
 ## ✅ Prerequisites
 
-- 📦 D365 F&O version 10.0.45 or later
-- 🔍 Azure Application Insights configured for batch telemetry
-- 🧠 Access to Copilot Studio and Power Automate
-- 🧰 Optional: Microsoft Fabric for extended data handling
+- D365 F&O version 10.0.45 or later
+- Azure Application Insights configured for batch telemetry
+- Access to Copilot Studio and Power Automate
+- Optional: Microsoft Fabric for extended data handling
 
 ## 🛠️ Step 1 - Telemetry Configuration
 
