@@ -1,16 +1,16 @@
-# Batch Telemetry Agent
+# 🚀 Batch Telemetry Agent
 
 ## 📚 Table of Contents
-- [Overview](#overview)
-- [Key Capabilities](#key-capabilities)
-- [Architecture](#architecture)
-- [Prerequisites](#prerequisites)
-- [Step 1 - Telemetry Configuration](#step-1---telemetry-configuration)
-- [Step 2 - Agent Deployment](#step-2---agent-deployment)
-- [Step 3 - Knowledge Source Integration](#step-3---knowledge-source-integration)
-- [Usage](#usage)
-- [Resources](#resources)
-- [Contributors](#contributors)
+- [Overview](#-overview)
+- [Key-Capabilities](#-key-capabilities)
+- [Architecture](#-architecture)
+- [Prerequisites](#-prerequisites)
+- [Step-1---Telemetry-Configuration](#-step-1---telemetry-configuration)
+- [Step-2---Agent-Deployment](#-step-2---agent-deployment)
+- [Step-3---Knowledge-Source-Integration](#-step-3---knowledge-source-integration)
+- [Usage](#-usage)
+- [Resources](#-resources)
+- [Contributors](#-contributors)
 
 ## 🧠 Overview
 
@@ -33,6 +33,7 @@ The Batch Telemetry Agent is an AI-powered monitoring and diagnostic solution de
 - **Telemetry Flow**: Batch Telemetry events from D365 F&O are streamed to Application Insights.
 - **Agent Logic**: Queries telemetry periodically or on-demand, evaluates rules, and stores results in Dataverse.
 - **User Interaction**: Users engage via Copilot chat, M365 chat, or Teams channels.
+- **Remediation Execution**: Actions are triggered via MCP Server and verified through telemetry feedback loops.
 
 ## ✅ Prerequisites
 
@@ -44,7 +45,7 @@ The Batch Telemetry Agent is an AI-powered monitoring and diagnostic solution de
 
 - Ensure batch telemetry is enabled in D365 F&O and connected to Application Insights  
   [Monitoring Telemetry](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/)  
-  [Monitoring Getting Started](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/monitoring-getting-started)
+  [Getting Started](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/monitoring-getting-started)
 
 ## 🛠️ Step 2 - Agent Deployment
 
