@@ -7,6 +7,7 @@
 - [Prerequisites](#prerequisites)
 - [Step 1 - Telemetry Configuration](#step-1---telemetry-configuration)
 - [Step 2 - Agent Deployment](#step-2---agent-deployment)
+- [Step 3 - Knowledge Source Integration](#step-3---knowledge-source-integration)
 - [Usage](#usage)
 - [Resources](#resources)
 - [Contributors](#contributors)
@@ -24,6 +25,7 @@ The Batch Telemetry Agent is an AI-powered monitoring and diagnostic solution de
 - **Visualization & Reporting**: Offers dashboards for workload distribution, priority spread, throttling trends, and batch exceptions.
 
 ## 🏗️ Architecture
+
 <p align="center">
   <img src="./Images/Architecture.png" alt="Batch Framework Telemetry Agent Architecture" width="1500"/>
 </p>
@@ -31,7 +33,6 @@ The Batch Telemetry Agent is an AI-powered monitoring and diagnostic solution de
 - **Telemetry Flow**: Batch Telemetry events from D365 F&O are streamed to Application Insights.
 - **Agent Logic**: Queries telemetry periodically or on-demand, evaluates rules, and stores results in Dataverse.
 - **User Interaction**: Users engage via Copilot chat, M365 chat, or Teams channels.
-- **Remediation Execution**: Actions are triggered via MCP Server and verified through telemetry feedback loops.
 
 ## ✅ Prerequisites
 
@@ -39,19 +40,22 @@ The Batch Telemetry Agent is an AI-powered monitoring and diagnostic solution de
 - Azure Application Insights configured for batch telemetry
 - Access to Copilot Studio and Power Automate
 
+## 🛠️ Step 1 - Telemetry Configuration
 
-    ## 🛠️ Step 1 - Telemetry Configuration
+- Ensure batch telemetry is enabled in D365 F&O and connected to Application Insights  
+  [Monitoring Telemetry](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/)  
+  [Monitoring Getting Started](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/monitoring-getting-started)
 
-- Ensure batch telemetry is enabled in D365 F&O and connected to Application Insights
-  (https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/)
-  (https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/monitoring-telemetry/monitoring-getting-started)
-  
-
-    ## 🛠️ Step 2 - Agent Deployment
+## 🛠️ Step 2 - Agent Deployment
 
 - Import the agent canvas app into Copilot Studio.
 - Configure prompts and remediation rules.
 - Set up Power Automate flows for notifications.
+
+## 🛠️ Step 3 - Knowledge Source Integration
+
+- Connect Microsoft Learn Docs MCP Server for contextual guidance.
+
 
 ## 🧪 Usage
 
